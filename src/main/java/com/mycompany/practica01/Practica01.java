@@ -72,25 +72,25 @@ public class Practica01 {
         
         
        System.out.println("Auto 1");
-        System.out.println(auto1);
+        System.out.println("Color: " + auto1.Color + " Usado: " + auto1.IsUsed + " Marca: " + auto1.Marca + " kilometraje: " + auto1.Kilometraje);
         System.out.println("Auto 2");
-        System.out.println(auto2);
+        System.out.println("Color: " + auto2.Color + " Usado: " + auto2.IsUsed + " Marca: " + auto2.Marca + " kilometraje: " + auto2.Kilometraje);
         System.out.println("Celular 1");
-        System.out.println(celular1);
+        System.out.println("Almacenamiento: " + celular1.Almacenamiento + " Color: " + celular1.Color + " Marca " + celular1.Marca + " Modelo: " + celular1.Modelo);
         System.out.println("Celular 2");
-        System.out.println(celular2);
+        System.out.println("Almacenamiento: " + celular2.Almacenamiento + " Color: " + celular2.Color + " Marca " + celular2.Marca + " Modelo: " + celular2.Modelo);
         System.out.println("Computador 1");
-        System.out.println(computador1);
+        System.out.println(" Marca " + computador1.Marca + " procesador " + computador1.Procesador + " Memoria " + computador1.Memoria + " Precio " + computador1.Precio);
         System.out.println("Computador 2");
-        System.out.println(computador2);
+        System.out.println(" Marca " + computador2.Marca + " procesador " + computador2.Procesador + " Memoria " + computador2.Memoria + " Precio " + computador2.Precio);
         System.out.println("Estudiante 1");
-        System.out.println(estudiante1);
+        System.out.println(estudiante1.nombre + " Cedula: " + estudiante1.cedula + " Carrera " + estudiante1.carrera + " Calificacion: " + estudiante1.calificacion);
         System.out.println("Estudiante 1");
-        System.out.println(estudiante2);
+        System.out.println(estudiante2.nombre + " Cedula: " + estudiante2.cedula + " Carrera " + estudiante2.carrera + " Calificacion: " + estudiante2.calificacion);
         System.out.println("Producto 1");
-        System.out.println(producto1);
+        System.out.println( "codigo: " + producto1.Codigo + " Categoria: " + producto1.Categoria + " Descripcion: " + producto1.Descripcion + " precio: " + producto1.Precio);
         System.out.println("Producto 2");
-        System.out.println(producto2);
+        System.out.println( "codigo: " + producto2.Codigo + " Categoria: " + producto2.Categoria + " Descripcion: " + producto2.Descripcion + " precio: " + producto2.Precio);
         
     }  
 }
